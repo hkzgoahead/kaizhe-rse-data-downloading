@@ -5,6 +5,7 @@ import paramiko
 from scp import SCPClient #method 2
 import logging
 import sys
+import csv
 
 # Define progress callback that prints the current percentage completed for the file
 def progress(filename, size, sent):
